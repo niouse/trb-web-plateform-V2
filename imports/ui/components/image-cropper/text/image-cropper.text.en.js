@@ -1,0 +1,50 @@
+module.exports = { 
+	title : "IMAGECROPPER COMPONENT",
+	selectButton : "SELECT",
+	filtersButton : "FILTER",
+	saveButton : "SAVE",
+	hintText : "tape here",
+	accessMenu : "Privacy",
+	photoTypeMenu : "Type of image",
+	industriesMenu : "Type of industry",
+	clientsMenu : "Client name",
+	solutionsMenu : "Type of solution",
+	tagsInput : "Additionnal tags",
+	description : "Description",
+	accessesList : [
+		"TRB only",
+		"Public",
+		"Private"
+	],
+	industriesList : [
+		"Blast furnace",
+		"Steelworks",
+		"aluminium",
+		"fundery",
+		"ferroalliage",
+		"cimentery",
+		"TTH"
+	],
+	photoTypesList : [
+		"Client, works",
+		"Client, finished part",
+		"Client, fabrication",
+		"BE, plan",
+		"BE, simulation",
+		"BE, conception",
+		"BE, 3D view",
+		"Nesles, plant",
+		"Nesles, divers",
+		"Others"
+	],
+	solutionsList : [
+		"Main runners",
+		"Electric furnaces",
+		"Titling laddles",
+		"Draw bridges",
+		"Tap hole face",
+	],
+	noPictureWarning : "You didn't selected any picture",
+	notCroppableWarning : "You didn't validated the image",
+	successMessage : "New image is loaded in database",
+}
